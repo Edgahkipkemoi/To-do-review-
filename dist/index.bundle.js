@@ -14,7 +14,7 @@
   \**********************/
 /***/ (() => {
 
-eval("const tasks = [\n  {\n    description: 'Task 1',\n    completed: false,\n    index: 1,\n  },\n  {\n    description: 'Task 2',\n    completed: true,\n    index: 2,\n  },\n  {\n    description: 'Task 3',\n    completed: false,\n    index: 3,\n  },\n];\n\nfunction renderTasks() {\n  const todoList = document.getElementById('todo-list');\n\n  tasks.forEach((task) => {\n    const listItem = document.createElement('li');\n    listItem.textContent = task.description;\n    todoList.appendChild(listItem);\n  });\n}\n\ndocument.addEventListener('DOMContentLoaded', renderTasks);\n\n\n//# sourceURL=webpack://to-do-list/./src/index.js?");
+eval("const tasks = [\n  {\n    description: 'Todays To Do',\n    completed: false,\n    index: 1,\n  },\n  {\n    description: 'Add to your list...',\n    completed: false,\n    index: 2,\n  },\n  {\n    description: 'wash the dishes',\n    completed: true,\n    index: 3,\n  },\n  {\n    description: 'complete To Do list project',\n    completed: false,\n    index: 4,\n  },\n  {\n    description: 'Clear all completed',\n    completed: false,\n    index: 5,\n  },\n];\n\nfunction renderTasks() {\n  const todoList = document.getElementById('todo-list');\n\n  tasks.forEach((task) => {\n    const listItem = document.createElement('li');\n    listItem.textContent = task.description;\n    todoList.appendChild(listItem);\n  });\n}\n\ndocument.addEventListener('DOMContentLoaded', renderTasks);\n\n\n//# sourceURL=webpack://to-do-list/./src/index.js?");
 
 /***/ })
 
